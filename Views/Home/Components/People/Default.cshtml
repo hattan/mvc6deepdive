@@ -1,0 +1,9 @@
+@model IEnumerable<DemoApp.Models.Person>
+
+<h2>People</h2>
+<ul>
+    @foreach (var person in Model)
+    {
+        <li>@person.Name</li>
+    }
+</ul>
